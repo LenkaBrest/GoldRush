@@ -65,6 +65,7 @@ public class GoldRush {
                 
             }
         }
+        System.out.println("Svaka cast! Izdrzali ste 20 nedelja zlatne groznice i zaradili: $"+fortyNiner.getMoney());
     }
     
     public void loadGame()throws IOException {

@@ -184,7 +184,7 @@ public class FortyNiner {
             }
         }
         for(int j=0; j<pos.size(); ++j){
-            tools.remove(tools.get(pos.get(j)));
+            tools.remove(tools.get(pos.get(j)-j));
             System.out.println("Uklonjena je kolevka na poziciji: "+pos.get(j)+"sada ima: "+tools.size()+"alata");
             
         }
